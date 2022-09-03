@@ -5,7 +5,6 @@
 #include <SDL_rect.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <iostream>
 
 void	ft_creation_sdl(void);
 void    ft_sdl_present(SDL_Renderer *renderer, SDL_Event event);
