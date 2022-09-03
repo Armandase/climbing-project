@@ -21,7 +21,7 @@ void	ft_creation_sdl(void)
 
 	if (SDL_Init(SDL_INIT_VIDEO))
 		SDL_Exit_Error("SDL initialisation");
-	window = SDL_CreateWindow("age of crux", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1080, 720, SDL_WINDOW_MAXIMIZED
+	window = SDL_CreateWindow("age of crux", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1080, 720, SDL_WINDOW_FULLSCREEN
 );
 	renderer = SDL_CreateRenderer(window, -1, 0);
 
