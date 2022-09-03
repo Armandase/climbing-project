@@ -1,1 +1,1 @@
-g++ *.c -o test  $(sdl2-config --cflags --libs)
+gcc *.c -o test  $(sdl2-config --cflags --libs)
