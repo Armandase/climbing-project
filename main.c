@@ -5,13 +5,6 @@ int	main(void)
 	ft_creation_sdl();
 	return (0);
 }
-void	SDL_Test(void)
-{
-	SDL_version test;
-	SDL_VERSION(&test);
-
-	printf("Hello world on sdl %d : %d : %d ! \n", test.major, test.minor, test.patch);
-}
 
 void	ft_creation_sdl(void)
 {
@@ -21,7 +14,7 @@ void	ft_creation_sdl(void)
 
 	if (SDL_Init(SDL_INIT_VIDEO))
 		SDL_Exit_Error("SDL initialisation");
-	window = SDL_CreateWindow("age of crux", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1080, 720, SDL_WINDOW_FULLSCREEN
+	window = SDL_CreateWindow("age of crux", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1080, 720, SDL_WINDOW_FULLSCREEN_DESKTOP
 );
 	renderer = SDL_CreateRenderer(window, -1, 0);
 
