@@ -49,6 +49,6 @@ void	ft_sdl_present(SDL_Renderer *renderer,  SDL_Event event)
 		}
 		SDL_RenderPresent(renderer);
 		SDL_RenderClear(renderer);
-		SDL_SetRenderDrawColor(renderer, 107, 28, 35, 255);
+		SDL_SetRenderDrawColor(renderer, 142, 142, 142, 255);
 	}
 }
